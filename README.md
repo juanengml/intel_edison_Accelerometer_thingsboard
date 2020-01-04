@@ -49,3 +49,10 @@ Usando Shield Grove V2 com Intel edison e 3Axis Digital Accelerometer
 
 
 DEMO - https://www.youtube.com/watch?v=fIQuyGeRzh4
+
+## FONTES:
+
+-  https://upm.mraa.io/sensorDetail.html?name=MMA7660
+-  https://thingsboard.io/docs/samples/raspberry/temperature/
+
+
