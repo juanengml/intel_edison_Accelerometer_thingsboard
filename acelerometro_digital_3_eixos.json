@@ -1,0 +1,279 @@
+{
+  "title": "acelerometro digital 3 eixos",
+  "configuration": {
+    "widgets": {
+      "d0dfe5ed-2f8e-6154-5a80-3a101f3ed39b": {
+        "isSystemType": true,
+        "bundleAlias": "cards",
+        "typeAlias": "timeseries_table",
+        "type": "timeseries",
+        "title": "New widget",
+        "sizeX": 13,
+        "sizeY": 11,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "dataKeys": [
+                {
+                  "name": "x",
+                  "type": "timeseries",
+                  "label": "x",
+                  "color": "#2196f3",
+                  "settings": {
+                    "useCellStyleFunction": false,
+                    "cellStyleFunction": "",
+                    "useCellContentFunction": false,
+                    "cellContentFunction": ""
+                  },
+                  "_hash": 0.5158356791005212
+                },
+                {
+                  "name": "y",
+                  "type": "timeseries",
+                  "label": "y",
+                  "color": "#4caf50",
+                  "settings": {
+                    "useCellStyleFunction": false,
+                    "cellStyleFunction": "",
+                    "useCellContentFunction": false,
+                    "cellContentFunction": ""
+                  },
+                  "_hash": 0.22256829766930153
+                },
+                {
+                  "name": "z",
+                  "type": "timeseries",
+                  "label": "z",
+                  "color": "#f44336",
+                  "settings": {
+                    "useCellStyleFunction": false,
+                    "cellStyleFunction": "",
+                    "useCellContentFunction": false,
+                    "cellContentFunction": ""
+                  },
+                  "_hash": 0.3800842602406589
+                }
+              ],
+              "entityAliasId": "3d5c8a61-fbbd-541d-f876-27bc11a27466"
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "interval": 1000,
+              "timewindowMs": 60000
+            },
+            "aggregation": {
+              "type": "NONE",
+              "limit": 200
+            }
+          },
+          "showTitle": true,
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "8px",
+          "settings": {
+            "showTimestamp": true,
+            "displayPagination": true,
+            "defaultPageSize": 10
+          },
+          "title": "acelerômetro",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": false,
+          "showLegend": false,
+          "widgetStyle": {},
+          "actions": {}
+        },
+        "id": "d0dfe5ed-2f8e-6154-5a80-3a101f3ed39b"
+      },
+      "d4649696-e94f-73ad-c089-c372542159f2": {
+        "isSystemType": true,
+        "bundleAlias": "charts",
+        "typeAlias": "basic_timeseries",
+        "type": "timeseries",
+        "title": "New widget",
+        "sizeX": 11,
+        "sizeY": 11,
+        "config": {
+          "datasources": [
+            {
+              "type": "entity",
+              "dataKeys": [
+                {
+                  "name": "x",
+                  "type": "timeseries",
+                  "label": "x",
+                  "color": "#2196f3",
+                  "settings": {
+                    "showLines": true,
+                    "fillLines": false,
+                    "showPoints": false,
+                    "tooltipValueFormatter": "",
+                    "showSeparateAxis": false,
+                    "axisTitle": "",
+                    "axisPosition": "left",
+                    "axisTicksFormatter": ""
+                  },
+                  "_hash": 0.21091929794655728
+                },
+                {
+                  "name": "y",
+                  "type": "timeseries",
+                  "label": "y",
+                  "color": "#4caf50",
+                  "settings": {
+                    "showLines": true,
+                    "fillLines": false,
+                    "showPoints": false,
+                    "tooltipValueFormatter": "",
+                    "showSeparateAxis": false,
+                    "axisTitle": "",
+                    "axisPosition": "left",
+                    "axisTicksFormatter": ""
+                  },
+                  "_hash": 0.42316533049112515
+                },
+                {
+                  "name": "z",
+                  "type": "timeseries",
+                  "label": "z",
+                  "color": "#f44336",
+                  "settings": {
+                    "showLines": true,
+                    "fillLines": false,
+                    "showPoints": false,
+                    "tooltipValueFormatter": "",
+                    "showSeparateAxis": false,
+                    "axisTitle": "",
+                    "axisPosition": "left",
+                    "axisTicksFormatter": ""
+                  },
+                  "_hash": 0.9867803627709095
+                }
+              ],
+              "entityAliasId": "3d5c8a61-fbbd-541d-f876-27bc11a27466"
+            }
+          ],
+          "timewindow": {
+            "realtime": {
+              "timewindowMs": 60000
+            }
+          },
+          "showTitle": true,
+          "backgroundColor": "#fff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "8px",
+          "settings": {
+            "shadowSize": 4,
+            "fontColor": "#545454",
+            "fontSize": 10,
+            "xaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "yaxis": {
+              "showLabels": true,
+              "color": "#545454"
+            },
+            "grid": {
+              "color": "#545454",
+              "tickColor": "#DDDDDD",
+              "verticalLines": true,
+              "horizontalLines": true,
+              "outlineWidth": 1
+            },
+            "stack": false,
+            "tooltipIndividual": false
+          },
+          "title": "acelerômetro digital 3 eixos",
+          "dropShadow": true,
+          "enableFullscreen": true,
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "mobileHeight": null,
+          "widgetStyle": {},
+          "useDashboardTimewindow": true,
+          "showLegend": true,
+          "actions": {}
+        },
+        "id": "d4649696-e94f-73ad-c089-c372542159f2"
+      }
+    },
+    "states": {
+      "default": {
+        "name": "acelerometro digital 3 eixos",
+        "root": true,
+        "layouts": {
+          "main": {
+            "widgets": {
+              "d0dfe5ed-2f8e-6154-5a80-3a101f3ed39b": {
+                "sizeX": 13,
+                "sizeY": 11,
+                "row": 0,
+                "col": 0
+              },
+              "d4649696-e94f-73ad-c089-c372542159f2": {
+                "sizeX": 11,
+                "sizeY": 11,
+                "mobileHeight": null,
+                "row": 0,
+                "col": 13
+              }
+            },
+            "gridSettings": {
+              "backgroundColor": "#eeeeee",
+              "color": "rgba(0,0,0,0.870588)",
+              "columns": 24,
+              "margins": [
+                10,
+                10
+              ],
+              "backgroundSizeMode": "100%"
+            }
+          }
+        }
+      }
+    },
+    "entityAliases": {
+      "3d5c8a61-fbbd-541d-f876-27bc11a27466": {
+        "id": "3d5c8a61-fbbd-541d-f876-27bc11a27466",
+        "alias": "3axis",
+        "filter": {
+          "type": "singleEntity",
+          "resolveMultiple": true,
+          "singleEntity": {
+            "entityType": "DEVICE",
+            "id": "ed4ad780-2f22-11ea-b856-63cfd4fb72ef"
+          }
+        }
+      }
+    },
+    "timewindow": {
+      "realtime": {
+        "interval": 1000,
+        "timewindowMs": 30000
+      },
+      "aggregation": {
+        "type": "AVG",
+        "limit": 25000
+      }
+    },
+    "settings": {
+      "stateControllerId": "entity",
+      "showTitle": false,
+      "showDashboardsSelect": true,
+      "showEntitiesSelect": true,
+      "showDashboardTimewindow": true,
+      "showDashboardExport": true,
+      "toolbarAlwaysOpen": true
+    }
+  },
+  "name": "acelerometro digital 3 eixos"
+}
